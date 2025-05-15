@@ -1,0 +1,184 @@
+version: "3.0"
+nlu:
+- intent: greet
+  examples: |
+    - Hi
+    - Hello
+    - Hey
+    - Good morning
+
+- intent: vent
+  examples: |
+    - I just feel so stressed
+    - Everything is falling apart
+    - I'm really overwhelmed
+    - I need to talk to someone
+    - I feel so lonely
+    - I can't handle this anymore
+    - I'm exhausted
+
+- intent: sad
+  examples: |
+    - I feel so sad
+    - I'm not feeling well emotionally
+    - It's been really tough lately
+    - I feel like I'm stuck
+    - I'm really down today
+
+- intent: anxious
+  examples: |
+    - I'm feeling really anxious
+    - My anxiety is really bad today
+    - I can't stop worrying
+    - I feel nervous all the time
+    - I'm always on edge
+- intent: frustration
+  examples: |
+    - I'm so frustrated
+    - Nothing seems to work out
+    - I'm just tired of everything
+    - I feel like everything is going wrong
+    - I can't catch a break
+
+- intent: loneliness
+  examples: |
+    - I feel so alone
+    - I don't have anyone to talk to
+    - It's just me against the world
+    - I'm always by myself
+    - I wish I had someone to talk to
+
+- intent: hopelessness
+  examples: |
+    - I don't see the point anymore
+    - Everything feels pointless
+    - I'm losing hope
+    - I feel like giving up
+    - Nothing matters anymore
+
+- intent: encouragement_request
+  examples: |
+    - Can you say something positive?
+    - I need some encouragement
+    - Help me feel better
+    - Say something kind
+    - I need some support
+- intent: gratitude
+  examples: |
+    - Thank you for listening
+    - I appreciate your support
+    - I'm grateful for your help
+    - Thanks for being here for me
+    - I feel better after talking to you
+- intent: goodbye
+  examples: |
+    - Bye
+    - Goodbye
+    - See you later
+    - Take care
+    - Talk to you soon
+- intent: affirm
+  examples: |
+    - Yes
+    - Absolutely
+    - Of course
+    - Sure
+    - Definitely
+- intent: deny
+  examples: |
+    - No
+    - Not really
+    - I don't think so
+    - Not at all
+    - Definitely not
+- intent: mood_great
+  examples: |
+    - I am feeling great
+    - I am doing well
+    - I am happy
+    - I am in a good mood
+    - I feel fantastic
+- intent: mood_unhappy
+  examples: |
+    - I am not feeling well
+    - I am sad
+    - I am feeling down
+    - I am not happy
+    - I feel terrible
+- intent: mood_awesome
+  examples: |
+    - I am feeling awesome
+    - I am doing great
+    - I am very happy
+    - I am in a fantastic mood
+    - I feel amazing
+- intent: mood_bad
+  examples: |
+    - I am not feeling good
+    - I am feeling bad
+    - I am not doing well
+    - I am in a bad mood
+    - I feel awful
+- intent: mood_neutral
+  examples: |
+    - I am feeling okay
+    - I am doing fine
+    - I am not too happy or sad
+    - I am in a neutral mood
+    - I feel indifferent
+- intent: mood_ambivalent
+  examples: |
+    - I am feeling mixed emotions
+    - I am not sure how I feel
+    - I have both positive and negative feelings
+    - I am in an ambivalent mood
+    - I feel conflicted
+- intent: mood_confused
+  examples: |
+    - I am feeling confused
+    - I am not sure what to think
+    - I am feeling lost
+    - I am in a state of confusion
+    - I feel uncertain
+- intent: mood_hopeful
+  examples: |
+    - I am feeling hopeful
+    - I am optimistic about the future
+    - I have a positive outlook
+    - I feel like things will get better
+    - I am in a hopeful mood
+- intent: mood_optimistic
+  examples: |
+    - I am feeling optimistic
+    - I have a positive attitude
+    - I believe things will improve
+    - I feel hopeful about the future
+    - I am in an optimistic mood
+- intent: mood_pessimistic
+  examples: |
+    - I am feeling pessimistic
+    - I have a negative outlook
+    - I believe things will not improve
+    - I feel hopeless about the future
+    - I am in a pessimistic mood
+- intent: mood_exhausted
+  examples: |
+    - I am feeling exhausted
+    - I am very tired
+    - I feel drained
+    - I am in a state of fatigue
+    - I feel worn out
+- intent: mood_stressed
+  examples: |
+    - I am feeling stressed
+    - I am under a lot of pressure
+    - I feel overwhelmed
+    - I am in a state of stress
+    - I feel anxious and tense
+- intent: mood_overwhelmed
+  examples: |
+    - I am feeling overwhelmed
+    - I have too much on my plate
+    - I feel like I can't handle it all
+    - I am in a state of overwhelm
+    - I feel buried under responsibilities

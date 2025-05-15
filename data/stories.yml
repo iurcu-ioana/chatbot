@@ -1,0 +1,133 @@
+version: "3.0"
+stories:
+- story: User greets the bot
+  steps:
+  - intent: greet
+  - action: utter_greet
+
+- story: User is feeling lonely
+  steps:
+  - intent: loneliness
+  - action: utter_loneliness
+  - action: utter_ask_to_share
+
+- story: User opens up about loneliness
+  steps:
+  - intent: affirm
+  - action: utter_ask_more_details
+
+- story: User does not want to talk about loneliness
+  steps:
+  - intent: deny
+  - action: utter_respect_privacy
+
+- story: User is feeling sad
+  steps:
+  - intent: sad
+  - action: utter_sad
+  - action: utter_ask_to_share
+
+- story: User opens up about sadness
+  steps:
+  - intent: affirm
+  - action: utter_ask_more_details
+
+- story: User does not want to talk about sadness
+  steps:
+  - intent: deny
+  - action: utter_respect_privacy
+
+- story: User is feeling anxious
+  steps:
+  - intent: anxious
+  - action: utter_anxious
+  - action: utter_ask_to_share
+
+- story: User opens up about anxiety
+  steps:
+  - intent: affirm
+  - action: utter_ask_more_details
+
+- story: User does not want to talk about anxiety
+  steps:
+  - intent: deny
+  - action: utter_respect_privacy
+
+- story: User is feeling frustrated
+  steps:
+  - intent: frustration
+  - action: utter_frustration
+  - action: utter_ask_to_share
+
+- story: User opens up about frustration
+  steps:
+  - intent: affirm
+  - action: utter_ask_more_details
+
+- story: User does not want to talk about frustration
+  steps:
+  - intent: deny
+  - action: utter_respect_privacy
+
+- story: User feels hopeless
+  steps:
+  - intent: hopelessness
+  - action: utter_hopelessness
+  - action: utter_ask_to_share
+
+- story: User opens up about hopelessness
+  steps:
+  - intent: affirm
+  - action: utter_ask_more_details
+
+- story: User does not want to talk about hopelessness
+  steps:
+  - intent: deny
+  - action: utter_respect_privacy
+
+- story: User feels happy
+  steps:
+  - intent: mood_great
+  - action: utter_happy
+
+- story: User feels great
+  steps:
+  - intent: mood_awesome
+  - action: utter_great
+
+- story: User feels okay
+  steps:
+  - intent: mood_neutral
+  - action: utter_neutral
+
+- story: User is confused
+  steps:
+  - intent: mood_confused
+  - action: utter_confused
+
+- story: User feels optimistic
+  steps:
+  - intent: mood_optimistic
+  - action: utter_optimistic
+
+- story: User feels pessimistic
+  steps:
+  - intent: mood_pessimistic
+  - action: utter_pessimistic
+
+- story: User feels exhausted
+  steps:
+  - intent: mood_exhausted
+  - action: utter_exhausted
+
+- story: User feels stressed
+  steps:
+  - intent: mood_stressed
+  - action: utter_stressed
+
+- story: User feels overwhelmed
+  steps:
+  - intent: mood_overwhelmed
+  - action: utter_overwhelmed
+
+
